@@ -1,0 +1,39 @@
+/*
+Theme Name: von MATEO
+Author: Theo Haustein
+Author URI:
+Description: von MATEO Conference
+Version: 0.0
+*/
+
+body{
+    background: brown;
+    width: 100%;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card{
+    border: 2px;
+    border: solid;
+    border-color: cornsilk;
+    width: 10%;
+    margin: 10%;
+   
+}
+
+.card-heading{
+    background: transparent;
+    position: relative;
+    left: 10%
+}
+
+.card-foto img{
+max-width: 50%;
+height: auto;
+border: 1px solid #ddd;
+border-radius: 100px;
+}
